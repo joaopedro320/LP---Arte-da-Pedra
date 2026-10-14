@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /obrigado.html
+
+Sitemap: https://lp-arte-da-pedra.vercel.app/sitemap.xml
