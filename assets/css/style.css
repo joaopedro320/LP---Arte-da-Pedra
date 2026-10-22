@@ -227,6 +227,7 @@ p{margin:0 0 1em}
 .final__facets{position:absolute;right:-60px;bottom:-40px;width:min(640px,70vw);height:auto;color:var(--orange);opacity:.2;pointer-events:none}
 .final__in{position:relative}
 .final h2{font-size:clamp(34px,5vw,64px);max-width:18ch;margin-bottom:40px}
+.final__sub{font-size:20px;color:rgba(255,255,255,.8);max-width:40ch;margin:-20px 0 36px}
 
 /* Footer */
 .rodape{background:#0d2034;color:rgba(255,255,255,.72);font-size:15px;padding:60px 0 30px}
