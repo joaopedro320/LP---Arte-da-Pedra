@@ -61,11 +61,11 @@
   var ROOMS = {
     soleiras: { t: 'Soleiras', d: 'É por onde a casa completa começa: soleiras sob medida para portas e passagens, no mesmo padrão de pedra do resto da obra.', img: null, cta: 'Orçar soleiras' },
     cozinhas: { t: 'Cozinhas', d: 'Bancadas, ilhas e frontões cortados sob medida, com recorte para cuba e cooktop.', img: ['assets/img/cozinha-cuba-inox.webp', 'Bancada de cozinha em pedra clara com cuba de inox'], cta: 'Orçar minha cozinha' },
-    banheiros: { t: 'Banheiros', d: 'Bancadas com cuba de apoio ou com a cuba esculpida na própria pedra.', img: ['assets/img/banheiro-espelho-led.webp', 'Bancada de banheiro em pedra cinza com cuba esculpida'], cta: 'Orçar meu banheiro' },
-    lavanderias: { t: 'Lavanderias', d: 'Bancadas sob medida para a lavanderia, no mesmo acabamento da cozinha e dos banheiros.', img: null, cta: 'Orçar minha lavanderia' },
+    banheiros: { t: 'Banheiros', d: 'Bancadas com cuba de apoio ou com a cuba esculpida na própria pedra.', img: ['assets/img/banheiro-bancada-led.webp', 'Bancada branca de banheiro com cuba de apoio e espelho com LED'], cta: 'Orçar meu banheiro' },
+    lavanderias: { t: 'Lavanderias', d: 'Bancadas sob medida para a lavanderia, no mesmo acabamento da cozinha e dos banheiros.', img: ['assets/img/copa-granito-preto.webp', 'Bancada de lavanderia em pedra preta com tanque de inox'], cta: 'Orçar minha lavanderia' },
     gourmet: { t: 'Áreas gourmet', d: 'Balcões, bancadas e o entorno da churrasqueira em pedra, para a área que mais recebe gente em casa.', img: ['assets/img/area-gourmet.webp', 'Área gourmet com balcão de pedra e churrasqueira revestida'], cta: 'Orçar minha área gourmet' },
-    escadas: { t: 'Escadarias', d: 'Degraus e espelhos de escada em pedra, medidos no local.', img: null, cta: 'Orçar minha escada' },
-    tumulos: { t: 'Túmulos', d: 'Também fazemos túmulos em pedra, com o mesmo cuidado no acabamento.', img: null, cta: 'Pedir orçamento' }
+    cubas: { t: 'Cubas esculpidas', d: 'A cuba esculpida na própria pedra da bancada, sem emendas aparentes, para banheiros e lavabos.', img: ['assets/img/cuba-esculpida.webp', 'Cuba esculpida em pedra branca com veios cinza e metais dourados'], cta: 'Orçar minha cuba esculpida' },
+    acabamentos: { t: 'Nichos e acabamentos', d: 'Nichos para box e parede, rodapés, peitoris e outros acabamentos em pedra, no mesmo padrão do resto da obra.', img: null, cta: 'Orçar meus acabamentos' }
   };
   var tabs = document.querySelectorAll('[data-room]');
   var fig = document.querySelector('.rooms__fig');
